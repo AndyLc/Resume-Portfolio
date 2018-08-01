@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Home</title>
+
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+      <link href="/stylesheets/site.css" rel="stylesheet" />
+      <script src="/javascripts/all.js"></script>
+  </head>
+  <body class="index">
+    <div id="loader-wrapper" class="hidden">
+        <div id="loader" class="loader">
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__ball"></div>
+        </div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+      <nav>
+        <a href="/">ME</a>
+        <a href="/projects.html">PROJECTS</a>
+        <div class="right social-icons">
+          <span>yan.andy4@gmail.com</span>
+          <a href="https://github.com/AndyLc"><img src="/images/social-icons/SVG/Github-black.svg" alt="Github black" /></a>
+          <a href="https://www.linkedin.com/in/andy-yan-814796121"><img src="/images/social-icons/SVG/LinkedIn-black.svg" alt="Linkedin black" /></a>
+        </div>
+      </nav>
+    <div class="container">
+      <!--
+<div class="welcome">
+  <div class="logo">
+    <img src="/images/middleman-logo.svg" alt="Middleman logo" />
+  </div>
+  <h1>Middleman is Running</h1>
+  <p class="doc">
+    <a href="https://middlemanapp.com" target="_blank">Read Documentation Online</a>
+  </p>
+
+</div><!-- .welcome -->
+<div class="home">
+  <div class="information">
+    <h1>Andy Yan</h1>
+    <p>UC Berkeley Student. Explore my <a href="/projects.html">projects</a>.</p>
+    <div class="social-icons">
+      <a href="https://github.com/AndyLc"><img src="/images/social-icons/SVG/Github-black.svg" alt="Github black" /></a>
+      <!--
+      Facebook-color / Facebook-black
+      Github-color / Github-black
+      LinkedIn-color / LinkedIn-black
+      -->
+      <a href="https://www.linkedin.com/in/andy-yan-814796121"><img src="/images/social-icons/SVG/LinkedIn-black.svg" alt="Linkedin black" /></a><hr>
+      yan.andy4@gmail.com
+    </div>
+  </div>
+  <div class="tooltips-expand">
+    <div class="brain out">
+      <strong>Education: </strong>
+      <ul>
+        <li>University: UC Berkeley</li><br>
+        <li>Majors: Computer Science</li><br>
+        <br>
+        <strong>Theory/Applications Courses:</strong>
+        <ul>
+          <li>CS188: Artificial Intelligence</li><br>
+          <li>EE126: Probability & Random Processes</li><br>
+          <li>CS170: Efficient Algorithms and Intractable Problems</li><br>
+          <li>CS61B: Data Structures</li><br>
+          <li>MATH54: Linear Algebra and Differential Equations</li>
+        </ul>
+        <strong>Systems Courses:</strong>
+        <ul>
+          <li>CS162: Operating Systems</li><br>
+          <li>CS186: Database Systems</li><br>
+          <li>CS161: Computer Security</li><br>
+          <li>CS168: Internet Architecture and Protocols</li><br>
+          <li>CS61C: Computer Architecture</li>
+        </ul>
+      </ul>
+      <ul>
+        <strong>Online/Self-Study Courses:</strong>
+        <ul>
+          <li>Stanford CS229: Machine Learning</li>
+        </ul>
+      </ul>
+      <a class="back">Back</a>
+    </div>
+    <div class="heart out">
+      <strong>Interests: </strong>
+      <ul>
+        <li>Human Robotic Interactions</li><br>
+        <li>Game Theory & AI</li><br>
+        <li>Data Mining</li>
+      </ul>
+      <a class="back">Back</a>
+    </div>
+    <div class="hand out">
+      <strong>Tools: </strong>
+      <ul>
+        <strong>General</strong>
+        <ul>
+            <li>Python</li><br>
+            <li>Java</li><br>
+            <li>Scala</li><br>
+            <li>C++ / C</li><br>
+            <li>SQL</li>
+        </ul>
+        <strong>Web Development</strong>
+        <ul>
+          <li>Ruby on Rails</li><br>
+          <li>MEAN Stack</li><br>
+          <li>SASS</li><br>
+          <li>MySQL, postgreSQL, mongoDB</li>
+        </ul>
+        <strong>Mobile Development</strong>
+        <ul>
+          <li>React Native</li>
+        </ul>
+      </ul>
+      <a class="back">Back</a>
+    </div>
+  </div>
+  <div class="man">
+    <div class="circles brain">
+     <div class="circle circle-1"></div>
+     <div class="circle circle-2"></div>
+     <div class="circle circle-3"></div>
+     <div class="circle circle-4"></div>
+    </div>
+    <div class="circles heart">
+     <div class="circle circle-1"></div>
+     <div class="circle circle-2"></div>
+     <div class="circle circle-3"></div>
+     <div class="circle circle-4"></div>
+    </div>
+    <div class="circles hand">
+     <div class="circle circle-1"></div>
+     <div class="circle circle-2"></div>
+     <div class="circle circle-3"></div>
+     <div class="circle circle-4"></div>
+    </div>
+    <img src="/images/man.png" class="man" alt="Man" />
+    <div class="hover-node">
+      <div class="brain">
+      </div>
+      <div class="heart">
+      </div>
+      <div class="hand">
+      </div>
+    </div>
+    <div class="man-node-tooltips">
+      <div class="brain">
+        <strong>Education</strong>
+      </div>
+      <div class="heart">
+        <strong>Interests</strong>
+      </div>
+      <div class="hand">
+        <strong>Tools</strong>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+* {
+  box-sizing: border-box; }
+
+body {
+  background-image: linear-gradient(to right, #034378, #2d4e68);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif; }
+
+a {
+  text-decoration: none; }
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300; }
+
+.row {
+  margin: 50px auto 0; }
+
+.card {
+  float: left;
+  padding: 0 1.7rem;
+  width: 33%;
+  margin-bottom: 40px; }
+  .card .menu-content {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+    .card .menu-content::before, .card .menu-content::after {
+      content: '';
+      display: table; }
+    .card .menu-content::after {
+      clear: both; }
+    .card .menu-content li {
+      display: inline-block; }
+    .card .menu-content a {
+      color: #fff; }
+    .card .menu-content span {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      font-size: 10px;
+      font-weight: 700;
+      font-family: 'Open Sans';
+      transform: translate(-50%, 0); }
+  .card .wrapper {
+    background-color: #fff;
+    min-height: 300px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+    background-size: 100%; }
+    .card .wrapper:hover .data {
+      transform: translateY(0); }
+  .card .data {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transform: translateY(calc(100% - 45px));
+    transition: transform 0.3s; }
+    .card .data .content {
+      padding: 1em;
+      position: relative;
+      z-index: 1; }
+  .card .author {
+    font-size: 12px; }
+  .card .text {
+    height: auto;
+    margin: 0; }
+
+.style-1 a {
+  color: black; }
+.style-1 .date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #64C2EC;
+  color: #fff;
+  padding: 0.7em;
+  padding-left: 1.4em;
+  padding-right: 1.4em; }
+  .style-1 .date span {
+    display: block;
+    text-align: center; }
+  .style-1 .date .day {
+    font-weight: 700;
+    font-size: 24px;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.18); }
+  .style-1 .date .month {
+    text-transform: uppercase; }
+  .style-1 .date .month,
+  .style-1 .date .year {
+    font-size: 12px; }
+  .style-1 .date .year {
+    margin-top: -5px; }
+.style-1 .content {
+  background-color: #fff;
+  box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3); }
+.style-1 h1 {
+  margin-bottom: 10px;
+  font-size: 1.2em; }
+.style-1 .title {
+  color: gray; }
+
+@media only screen and (max-width: 1200px) {
+  .card {
+    width: 50%; } }
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 100%; }
+    .card .wrapper {
+      min-height: 400px; }
+    .card .data {
+      transform: translateY(0) !important; } }

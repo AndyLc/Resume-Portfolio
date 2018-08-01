@@ -1,0 +1,35 @@
+/**
+ * material-design-lite - Material Design Components in CSS, JS and HTML
+ * @version v1.3.0
+ * @license Apache-2.0
+ * @copyright 2015 Google, Inc.
+ * @link https://github.com/google/material-design-lite
+ */
+html, body {
+  font-family: "Helvetica","Arial",sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px; }
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0; }
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: -.02em;
+  opacity: .54;
+  font-size: .6em; }
+
+h1 {
+  font-size: 56px;
+  line-height: 1.35;
+  letter-spacing: -.02em;
+  margin: 24px 0; }
+
+h1, h2 {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400; }
+
+/*# sourceMappingURL=material.min.css.map */
